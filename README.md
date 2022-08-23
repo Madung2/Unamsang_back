@@ -34,7 +34,13 @@
 
 ## 5. 핵심 트러블 슈팅
 
-#### 검색창에 active 상태가 true면서, 게시 만료일이 지나지 않은 게시 sorting 하는 방법 
+#### 검색창에 active 상태가 true면서, 게시 만료일이 지나지 않은 게시물 sorting 하는 방법 
+
+검색창에서 쿼리를 날릴때, 3가지 조건, 검색어가 제목이나 작정자에 해당하면서도, active 상태가 true, 게시물 만료일이 지나지 않은 것을 검색할 필요가 있었습니다.
+
+하지만 처음의 전 각각 따로 sorting 하는 방법밖에 떠오르지 않았고, 불필요한 쿼리를 줄이고 싶다고 생각하게 되었습니다.<br> 
+이 시점쯤에 stackoverflow와 장고 도큐먼트를 좀 더 편하게 사용할 수 있게 되었는데,<br>
+검색어로 'django filter', 'django queries'등을 검색한 결과 Q()를 사용해 3가지 조건을 연결을 할 수 있는 식을 세우게 되었습니다. 
 
 
 ![code1](https://user-images.githubusercontent.com/104334219/186073479-6e66c1c2-4770-4afb-b4df-692c4164fe7f.png)
@@ -48,6 +54,12 @@
   'AssertionError: Expected a Response, HttpResponse or HttpStreamingResponse to be returned from the view, but received a <class 'NoneType'>'이란 에러문구가 떴는데,
   Response를 원한다고 해서 백에서의 문제일거라 생각하고 하나하나 체크를 해봤는데 큰 문제가 없었습니다.
   다시 print를 찍어가며 차근차근 에러가 난 곳을 되짚어 가보니 back이 아닌 front 단에서 유저명이 겹치는 문제가 있었습니다.
+</details>
+    
+<details close>
+  <summary>📌 AI 적용시 시간 소요 문제 </summary>
+    처음에는 'Dall-E'모델을 사용해서 text-to-image를 구현하려고 했습니다만, 모델이 많이 무거워서 우리같은 초보자들이 구현하기에는 어렵겠다 싶었고 
+
 </details>
 
 
