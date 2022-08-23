@@ -1,4 +1,7 @@
 # 📌 You know what I'm sayin'
+
+<img src='https://velog.velcdn.com/images/tasha_han_1234/post/69414403-7a14-42e1-acb9-490194034a8e/image.png'>
+
 - 텍스트 to 이미지 AI 서비스
 - 사이트 링크: 
 
@@ -20,6 +23,7 @@
 
 ## 3. 아키텍쳐 및 ERD 설계
 
+<img src='https://velog.velcdn.com/images/tasha_han_1234/post/3a9841c6-21b2-4880-81ef-78ffd98b5cf8/image.png'>
 
 ## 4. 핵심 기능
 <details close>
