@@ -59,7 +59,7 @@
     
 <details close>
   <summary>📌 AI 적용시 시간 소요 문제 </summary>
-    처음에는 'Dall-E'모델을 사용해서 text-to-image를 구현하려고 했습니다만, 모델이 많이 무거워서 우리같은 초보자들이 구현하기에는 어렵겠다 싶었고 
+    처음에는 'Dall-E'모델을 사용해서 text-to-image를 구현하려고 했습니다만, 모델이 많이 무거워서 우리같은 초보자들이 구현하기에는 어렵겠다 싶었고 조금 더 정확도가 떨어지더라도 실용 가능한 속도를 가진 <a href='https://colab.research.google.com/drive/1TBo4saFn1BCSfgXsmREFrUl3zSQFg6CC'>'diffusion'</a>모델을 사용하게 되었습니다. 
 
 </details>
 
