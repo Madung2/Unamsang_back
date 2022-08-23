@@ -28,9 +28,19 @@
 ## 4. 핵심 기능
 <details close>
   <summary>📌 로그인/회원가입</summary>
-  유효성 검사, 아이디 중복 검사, JWT Token사용, 카카오 소셜 로그인
+  유효성 검사, 아이디 중복 검사, JWT Token사용
 </details>
-
+<details close>
+  <summary>📌이미지 업로드 및 이미지 프리뷰 기능</summary>
+</details>
+<details close>
+  <summary>📌디테일 모달</summary>
+    댓글기능, 점수 부여 기능
+</details>
+<details close>
+  <summary>📌마이페이지 기능</summary>
+    게시물 CRUD 및 댓글 단 게시물 보여주기
+</details>
 
 ## 5. 핵심 트러블 슈팅
 
@@ -60,6 +70,7 @@
 <details close>
   <summary>📌 AI 적용시 시간 소요 문제 </summary>
     처음에는 'Dall-E'모델을 사용해서 text-to-image를 구현하려고 했습니다만, 모델이 많이 무거워서 우리같은 초보자들이 구현하기에는 어렵겠다 싶었고 조금 더 정확도가 떨어지더라도 실용 가능한 속도를 가진 <a href='https://colab.research.google.com/drive/1TBo4saFn1BCSfgXsmREFrUl3zSQFg6CC'>'diffusion'</a>모델을 사용하게 되었습니다. 
+    pytorch를 사용할때 그래픽카드에 맞는 쿠다 버전을 다운받아 사용하는 것도 시간 단축에 큰 도움이 되었습니다.
 
 </details>
 
